@@ -67,19 +67,84 @@
 #div_persona_destacada{
     width: 90%;
     display:flex;
-    flex-direction: row;
     margin: auto;
+    background-color: blueviolet;
+    flex-direction: column;
+    align-items: center;
 }
 
-#div_persona_destacada div img{
-    border-radius: 0.5em;
+#persona_destacada_fondo{
+    background-image: url("imagenes/img inicio/Persona1.jpg");
     width: 80%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.5em;
+    display:flex;
+    flex-direction: row-reverse;
 }
 .persona_destacada_texto{
-    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.301);
+    text-align: center;
 }
 
 /*-------------------------||-------------------------*/
+
+/*--------------------|OTRAS CLASES|--------------------*/
+
+#div_contenedor_otras_clases{
+    display:block;
+}
+.div_contenedor_titulos_clases{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.div_contenedor_clases{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*-------------------------||-------------------------*/
+
+
+/*----------------------|ULTIMO|----------------------*/
+#div_ultimo_contenedor{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+#div_ultimo_contenedor_titulos{
+    display: block;
+    width: 30%;
+    background-color: aqua;
+}
+
+#div_ultimo_imagen{
+    width: 60%;
+}
+
+/*-------------------------||-------------------------*/
+
+
+/*-------------------------|FOOTER|-------------------------*/
+
+#div_contenedor_footer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+/*-------------------------||-------------------------*/
+
 
 
 
