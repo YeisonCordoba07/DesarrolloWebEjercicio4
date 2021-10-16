@@ -1,0 +1,85 @@
+/*-------------------------||-------------------------*/
+
+#contenedor_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.elementos_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#publicidad{
+    display: flex;
+    flex-direction: row;
+}
+
+/*-------------------------||-------------------------*/
+
+/*-----------------|REGISTRO USUARIOS|-----------------*/
+#contenedor_portada{
+    width: 100%;
+}
+#div_contenedor_portada{
+    width: 90%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+	margin: auto;
+	justify-content: space-evenly;
+}
+
+#registro_usuarios{
+    width: 30%;
+    display:block;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+#portada{
+    width: 70%;
+    background-color: aquamarine;
+}
+#portada img{
+    border-radius: 1em;
+    width: 100%;
+}
+
+/*-------------------------||-------------------------*/
+
+
+/*-------------------------|MARCAS|-------------------------*/
+#marcas{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content:space-between;
+    background-color: aqua;
+}
+/*-------------------------||-------------------------*/
+
+/*------------------|PERSONA DESTACADA|------------------*/
+#div_persona_destacada{
+    width: 90%;
+    display:flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+#div_persona_destacada div img{
+    border-radius: 0.5em;
+    width: 80%;
+}
+.persona_destacada_texto{
+    background-color: antiquewhite;
+}
+
+/*-------------------------||-------------------------*/
+
+
+
