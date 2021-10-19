@@ -1,3 +1,8 @@
+body{
+    font-family: "Sohne", "Helvetica", "Arial", sans-serif;
+}
+
+
 /*-------------------------||-------------------------*/
 
 #contenedor_nav{
@@ -31,12 +36,15 @@
 	text-align: center;
 	margin: auto;
 	justify-content: space-evenly;
+    align-items: center;
 }
 
 #registro_usuarios{
     width: 30%;
-    display:block;
-    text-align: center;
+    display:flex;
+    flex-direction: column;
+    
+    align-items: center;
     background-color: antiquewhite;
 }
 
@@ -47,6 +55,45 @@
 #portada img{
     border-radius: 1em;
     width: 100%;
+}
+#imagen_titulo{
+    width: 100%;
+}
+.texto_iniciar_sesion{
+    color: white;
+    border-radius: 0.5em;
+    width: 100%;
+    height: 51px;
+    border-style: solid;
+
+    margin-bottom: 1em; 
+}
+.boton_iniciar_sesion{
+    background-color: #f45c76;
+    color: white;
+    border-radius:  1em;
+    width: 100%;
+    height: 51px;
+    margin-bottom: 1em;
+    border-style: solid;
+}
+.texto_uno_iniciar_sesion{
+    justify-content: left;
+    text-align: left;
+}
+#privacidad_iniciar_sesion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#privacidad_iniciar_sesion div{
+    border-style: solid;
+}
+#div_centrado_iniciar_sesion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
 }
 
 /*-------------------------||-------------------------*/
