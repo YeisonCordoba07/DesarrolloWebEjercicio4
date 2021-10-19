@@ -1,5 +1,6 @@
 body{
     font-family: "Sohne", "Helvetica", "Arial", sans-serif;
+    background-color: rgb(63, 63, 63);
 }
 
 
@@ -106,7 +107,8 @@ body{
     flex-direction: row;
     margin: auto;
     justify-content:space-between;
-    background-color: aqua;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 /*-------------------------||-------------------------*/
 
@@ -115,15 +117,15 @@ body{
     width: 90%;
     display:flex;
     margin: auto;
-    background-color: blueviolet;
+    background-color: beige;
     flex-direction: column;
     align-items: center;
 }
 
 #persona_destacada_fondo{
     background-image: url("imagenes/img inicio/Persona1.jpg");
-    width: 80%;
-    height: 600px;
+    width: 90%;
+    height: 514px;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 0.5em;
@@ -131,26 +133,93 @@ body{
     flex-direction: row-reverse;
 }
 .persona_destacada_texto{
+    display: flex;
+    flex-direction: column;
     background-color: rgba(250, 235, 215, 0.301);
-    text-align: center;
-}
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    color: white;
 
+}
+.subtitulo{
+    background-color: white;
+    color: black;
+    border-radius: 1em;
+    padding: 0.3em 1em 0.3em 1em;
+}
+#letras_persona_destacada{
+    width: 200px;
+}
+#boton_ver_trailer{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius:  1em;
+    width: 50%;
+    height: 51px;
+    margin-bottom: 1em;
+    border-style: solid;
+}
+#boton_ver_trailer span{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
 /*-------------------------||-------------------------*/
 
 /*--------------------|OTRAS CLASES|--------------------*/
 
 #div_contenedor_otras_clases{
     display:block;
+    background-color: #f45c76;
 }
 .div_contenedor_titulos_clases{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    color:rgb(255, 255, 255);
+
+}
+.div_contenedor_titulos_clases h4{
+    font-weight: lighter;
 }
 .div_contenedor_clases{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: aquamarine;
+    margin: auto;
+    width: 80%;
+    color:#ffffff;
+}
+
+
+.clase_persona{
+    width: 284px;
+    height: 504px;
+    border-style: solid;
+    border-radius: 1em;
+    margin-right: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#clase_persona_1{
+    background-image: url("imagenes/perfil_uno.jpg");
+}
+#clase_persona_2{
+    background-image: url("imagenes/perfil_dos.jpg");
+}
+#clase_persona_3{
+    background-image: url("imagenes/perfil_tres.jpg");
+}
+#clase_persona_4{
+    background-image: url("imagenes/perfil_cuatro.jpg");
 }
 
 /*-------------------------||-------------------------*/
@@ -192,6 +261,8 @@ body{
 
 /*-------------------------||-------------------------*/
 
-
+.espaciado{
+    margin-top: 60px;
+}
 
 
