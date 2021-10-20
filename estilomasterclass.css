@@ -103,14 +103,6 @@ body{
 
 
 
-
-
-
-
-
-
-
-
     width: 100%;
 }
 #entrada{
@@ -240,7 +232,6 @@ body{
     margin-bottom: 2em; 
 }
 
-
 #clase_persona_1{
     background: linear-gradient(to top, #191c21, 
     hsla(0, 0%, 0%, 0),hsla(317, 45%, 52%, 0)), 
@@ -349,7 +340,6 @@ body{
     justify-content: space-between;
     width: 1200px;
     margin: auto;
-
 }
 
 .footer_textos{
@@ -358,12 +348,14 @@ body{
 
 .footer_textos p{
     margin-bottom: 2em;
-    margin-left: 0em;
-
-    
+    margin-left: 0em;    
 }
 
 /*-------------------------||-------------------------*/
+
+
+
+/*-------------------------|GENERALIDADES|-------------------------*/
 .subtitulo{
     background-color: white;
     color: black;
@@ -385,5 +377,6 @@ body{
 .subrayado{
     text-decoration: underline;
 }
+/*-------------------------||-------------------------*/
 
 
