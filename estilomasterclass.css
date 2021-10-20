@@ -26,6 +26,8 @@ body{
 
 /*-------------------------||-------------------------*/
 
+
+
 /*-----------------|REGISTRO USUARIOS|-----------------*/
 #contenedor_portada{
     width: 100%;
@@ -40,7 +42,12 @@ body{
 	justify-content: space-evenly;
     align-items: center;
 }
-
+#div_centrado_iniciar_sesion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 311px;
+}
 #registro_usuarios{
     width: 30%;
     display:flex;
@@ -62,22 +69,28 @@ body{
     width: 100%;
 }
 .texto_iniciar_sesion{
-    color: white;
-    border-radius: 0.5em;
+    color: rgb(151, 150, 150);
+    border-radius: 0.2em;
     width: 100%;
     height: 51px;
-    border-style: solid;
-
+    border-style: none;
+    background-color: #191c21;
+    font-size: medium;
     margin-bottom: 1em; 
+    border-style: solid;
+    border-width: 0.1px;
+    font-weight: 550;
 }
 .boton_iniciar_sesion{
-    background-color: #f45c76;
+    background-color: #f24462;
     color: white;
     border-radius:  1em;
     width: 100%;
     height: 51px;
     margin-bottom: 1em;
-    border-style: solid;
+    border-style: none;
+    font-weight: 600;
+    font-family: "Sohne", "Helvetica", "Arial", sans-serif;
 }
 .texto_uno_iniciar_sesion{
     justify-content: left;
@@ -87,18 +100,34 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+
+
+
+
+
+
+
+
+
+
+
+    width: 100%;
 }
-#privacidad_iniciar_sesion div{
-    border-style: solid;
-}
-#div_centrado_iniciar_sesion{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
+#entrada{
+    background-color: #191c21;
+    margin-right: 1em;
+    background: #191c21;
 }
 
+#subtitulo_2{
+    margin-bottom: 4em;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: rgb(200, 200, 200);
+
+}
 /*-------------------------||-------------------------*/
+
 
 
 /*-------------------------|MARCAS|-------------------------*/
@@ -111,9 +140,11 @@ body{
 }
 /*-------------------------||-------------------------*/
 
+
+
 /*------------------|PERSONA DESTACADA|------------------*/
 #div_persona_destacada{
-    width: 90%;
+    width: 1200px;
     display:flex;
     margin: auto;
     /*background-color: beige;*/
@@ -123,9 +154,9 @@ body{
 
 #persona_destacada_fondo{
     background-image: url("imagenes/img inicio/Persona1.jpg");
-    width: 90%;
+    width: 100%;
     height: 514px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     border-radius: 0.5em;
     display:flex;
@@ -134,18 +165,13 @@ body{
 .persona_destacada_texto{
     display: flex;
     flex-direction: column;
-    background-color: rgba(250, 235, 215, 0.301);
+    background-color: #191c21;
     width: 30%;
     justify-content: center;
     align-items: center;
     color: white;
+    background: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 
-}
-.subtitulo{
-    background-color: white;
-    color: black;
-    border-radius: 1em;
-    padding: 0.3em 1em 0.3em 1em;
 }
 #letras_persona_destacada{
     width: 200px;
@@ -165,10 +191,14 @@ body{
 }
 /*-------------------------||-------------------------*/
 
-/*--------------------|OTRAS CLASES|--------------------*/
 
+
+/*--------------------|OTRAS CLASES|--------------------*/
 #div_contenedor_otras_clases{
     display:block;
+    width:82%;
+    margin: auto;
+    width: 1220px;
 }
 .div_contenedor_titulos_clases{
     display: flex;
@@ -185,46 +215,76 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     margin: auto;
-    width: 80%;
+    width: 100%;
     color:#ffffff;
+}
+.div_contenedor_clases img{
+    width: 80%;
 }
 
 
 .clase_persona{
     width: 284px;
     height: 504px;
-    border-style: solid;
+    border-style: none;
     border-radius: 1em;
     margin-right: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    justify-content: end;
-    background-repeat: no-repeat;
-    background-size: cover;
+    justify-content: end;  
+}
+
+.clase_persona h4{
+    margin-bottom: 2em; 
 }
 
 
 #clase_persona_1{
-    background-image: url("imagenes/perfil_uno.jpg");
+    background: linear-gradient(to top, #191c21, 
+    hsla(0, 0%, 0%, 0),hsla(317, 45%, 52%, 0)), 
+    url("imagenes/perfil_uno.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #clase_persona_2{
-    background-image: url("imagenes/perfil_dos.jpg");
+    background: linear-gradient(to top, #191c21, 
+    hsla(0, 0%, 0%, 0),hsla(317, 45%, 52%, 0)), 
+    url("imagenes/perfil_dos.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #clase_persona_3{
-    background-image: url("imagenes/perfil_tres.jpg");
+    background: linear-gradient(to top, #191c21, 
+    hsla(0, 0%, 0%, 0),hsla(317, 45%, 52%, 0)), 
+    url("imagenes/perfil_tres.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #clase_persona_4{
-    background-image: url("imagenes/perfil_cuatro.jpg");
+    background: linear-gradient(to top, #191c21, 
+    hsla(0, 0%, 0%, 0),hsla(317, 45%, 52%, 0)), 
+    url("imagenes/perfil_cuatro.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /*-------------------------||-------------------------*/
 
 
+
 /*----------------------|ULTIMO|----------------------*/
+#section_gris{
+    background-color: #191c21;
+}
+
 #div_ultimo_contenedor{
-    width: 90%;
+    width: 1200px;
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -247,7 +307,7 @@ body{
 }
 
 #div_ultimo_imagen{
-    width: 50%;
+    width: 60%;
 }
 
 #div_ultimo_imagen img{
@@ -255,7 +315,7 @@ body{
 }
 
 #ultimo_boton{
-    background-color: #f45c76;
+    background-color: #f24462;
     color: white;
     border-radius:  1em;
     width: 30%;
@@ -279,13 +339,16 @@ body{
 /*-------------------------||-------------------------*/
 
 
+
 /*-------------------------|FOOTER|-------------------------*/
 
 #div_contenedor_footer{
 
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
 
 }
 
@@ -293,23 +356,20 @@ body{
     display: block;
 }
 
-.footer_textos ul{
-    list-style: none;
-    text-align: left;
-    justify-content: left;
-    display: flex;
-    flex-direction: column;
-}
-
-.footer_textos ul li{
-    margin-top: 2em;
+.footer_textos p{
+    margin-bottom: 2em;
     margin-left: 0em;
 
     
 }
 
 /*-------------------------||-------------------------*/
-
+.subtitulo{
+    background-color: white;
+    color: black;
+    border-radius: 1em;
+    padding: 0.3em 1em 0.3em 1em;
+}
 .espaciado{
     /*margin-top: 30px;
     margin-bottom: 30px;*/
