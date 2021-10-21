@@ -5,13 +5,30 @@ body{
 }
 
 
-/*-------------------------||-------------------------*/
+/*-------------------------|NAVEGADOR|-------------------------*/
+#navegador{
+    position:fixed;
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    margin-top: -8px;
+}
 
 #contenedor_nav{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    font-size: 9px;
+}
+
+#elemento_nav_principal{
     justify-content: space-evenly;
-    width: 90%;
+    display: flex;
+    flex-direction: row;
+    width:50%;
 }
 
 .elementos_nav{
@@ -19,10 +36,52 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
 }
+
 #publicidad{
     display: flex;
     flex-direction: row;
 }
+
+#logo_masterclass{
+    width: 80%;
+    margin-right: auto;
+}
+
+#elemento_nav_iniciar_sesion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#elemento_nav_iniciar_sesion h1{
+    margin-right: 30px;
+}
+
+/*-------------------------||-------------------------*/
+
+
+
+/*-------------------------|PUBLICIDAD|-------------------------*/
+#section_publicidad{
+    background-color: aliceblue;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+#publicidad{
+    display: flex;
+    flex-direction: row;
+
+    color: black;
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
 
 /*-------------------------||-------------------------*/
 
@@ -32,6 +91,7 @@ body{
 #contenedor_portada{
     width: 100%;
 }
+
 #div_contenedor_portada{
     width: 90%;
     display: flex;
@@ -42,12 +102,14 @@ body{
 	justify-content: space-evenly;
     align-items: center;
 }
+
 #div_centrado_iniciar_sesion{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 311px;
 }
+
 #registro_usuarios{
     width: 30%;
     display:flex;
@@ -61,17 +123,20 @@ body{
     width: 70%;
     /*background-color: aquamarine;*/
 }
+
 #portada img{
     border-radius: 1em;
     width: 100%;
 }
+
 #imagen_titulo{
     width: 100%;
 }
+
 .texto_iniciar_sesion{
-    color: rgb(151, 150, 150);
+    color: rgb(255, 255, 255);
     border-radius: 0.2em;
-    width: 100%;
+    width: 93%;
     height: 51px;
     border-style: none;
     background-color: #191c21;
@@ -80,7 +145,13 @@ body{
     border-style: solid;
     border-width: 0.1px;
     font-weight: 550;
+    padding-left: 20px;
+
 }
+.texto_iniciar_sesion::placeholder{
+    color: rgb(182, 182, 182);
+}
+
 .boton_iniciar_sesion{
     background-color: #f24462;
     color: white;
@@ -378,5 +449,17 @@ body{
     text-decoration: underline;
 }
 /*-------------------------||-------------------------*/
+
+.firma{
+    color:crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+
+}
 
 
