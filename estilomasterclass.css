@@ -1,8 +1,17 @@
-body{
+*{
     font-family: "Sohne", "Helvetica", "Arial", sans-serif;
+}
+*::selection{
+    background-color: rgba(255, 255, 255, 0.507);
+}
+html, body{
+    height: 100%;
+}
+body{
     background-color: rgb(0, 0, 0);
     color:#ffffff
 }
+
 
 
 /*-------------------------|NAVEGADOR|-------------------------*/
@@ -148,6 +157,7 @@ body{
     padding-left: 20px;
 
 }
+
 .texto_iniciar_sesion::placeholder{
     color: rgb(182, 182, 182);
 }
@@ -163,19 +173,19 @@ body{
     font-weight: 600;
     font-family: "Sohne", "Helvetica", "Arial", sans-serif;
 }
+
 .texto_uno_iniciar_sesion{
     justify-content: left;
     text-align: left;
 }
+
 #privacidad_iniciar_sesion{
     display: flex;
     flex-direction: row;
     align-items: center;
-
-
-
     width: 100%;
 }
+
 #entrada{
     background-color: #191c21;
     margin-right: 1em;
@@ -189,6 +199,7 @@ body{
     color: rgb(200, 200, 200);
 
 }
+
 /*-------------------------||-------------------------*/
 
 
@@ -225,6 +236,7 @@ body{
     display:flex;
     flex-direction: row-reverse;
 }
+
 .persona_destacada_texto{
     display: flex;
     flex-direction: column;
@@ -236,9 +248,11 @@ body{
     background: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 
 }
+
 #letras_persona_destacada{
     width: 200px;
 }
+
 #boton_ver_trailer{
     background-color: #ffffff;
     color: rgb(0, 0, 0);
@@ -248,10 +262,12 @@ body{
     margin-bottom: 1em;
     border-style: solid;
 }
+
 #boton_ver_trailer span{
     font-weight: bold;
     letter-spacing: 1px;
 }
+
 /*-------------------------||-------------------------*/
 
 
@@ -263,6 +279,7 @@ body{
     margin: auto;
     width: 1220px;
 }
+
 .div_contenedor_titulos_clases{
     display: flex;
     flex-direction: row;
@@ -270,9 +287,11 @@ body{
     color:rgb(255, 255, 255);
 
 }
+
 .div_contenedor_titulos_clases h4{
     font-weight: lighter;
 }
+
 .div_contenedor_clases{
     display: flex;
     flex-direction: row;
@@ -281,10 +300,10 @@ body{
     width: 100%;
     color:#ffffff;
 }
+
 .div_contenedor_clases img{
     width: 80%;
 }
-
 
 .clase_persona{
     width: 284px;
@@ -311,6 +330,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 #clase_persona_2{
     background: linear-gradient(to top, #191c21, 
     hsla(0, 0%, 0%, 0),hsla(317, 45%, 52%, 0)), 
@@ -319,6 +339,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 #clase_persona_3{
     background: linear-gradient(to top, #191c21, 
     hsla(0, 0%, 0%, 0),hsla(317, 45%, 52%, 0)), 
@@ -327,6 +348,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 #clase_persona_4{
     background: linear-gradient(to top, #191c21, 
     hsla(0, 0%, 0%, 0),hsla(317, 45%, 52%, 0)), 
@@ -389,6 +411,7 @@ body{
 #ultimo_boton span{
     font-weight: bold;
 }
+
 #ultimo_div_botones{
     display: flex;
     flex-direction: row;    
@@ -433,6 +456,7 @@ body{
     border-radius: 1em;
     padding: 0.3em 1em 0.3em 1em;
 }
+
 .espaciado{
     /*margin-top: 30px;
     margin-bottom: 30px;*/
@@ -448,6 +472,7 @@ body{
 .subrayado{
     text-decoration: underline;
 }
+
 /*-------------------------||-------------------------*/
 
 .firma{
@@ -458,8 +483,6 @@ body{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 100px;
-    
-
 }
 
 
