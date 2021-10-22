@@ -1,0 +1,17 @@
+*{
+    font-family: "Sohne", "Helvetica", "Arial", sans-serif;
+}
+*::selection{
+    background-color: rgba(255, 255, 255, 0.507);
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-color: rgb(110, 110, 110);
+    color:#ffffff
+}
+
+/*-------------------------||-------------------------*/
+
+/*-------------------------||-------------------------*/
