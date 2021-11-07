@@ -19,6 +19,7 @@
 
         <nav>
 
+
             <div class="nav-div_contenedor_nav">
 
 
@@ -60,18 +61,22 @@
 
         <!--| ----------------------------------- |-->
 
+
         <div id="portada" class="contenedor">
 
 
-            <img src="St Vincent/Imagenes/Portada St Vincent.jpg" alt="St. Vincent">
+            <!--|La imagen va de fondo, los elementos están alineados en flex row end|-->
+            <img src="St Vincent/Imagenes/Portada St Vincent.jpg" alt="Foto St. Vincent">
             <!--| ----------------------- |-->
-            <div id="portada-div_contenedor_titulos">
+            <div class="portada_div_contenedor_titulos">
 
 
                 <div>
 
 
-                    <img src="St Vincent/Imagenes/Letras/Sr Vincent Letras.png" alt="Titulo St. Vincent">
+                    <img 
+                    src="St Vincent/Imagenes/Letras/Sr Vincent Letras.png" 
+                    alt="Titulo St. Vincent">
 
 
                 </div>
@@ -99,7 +104,7 @@
 
             <!--| ----------------------------------- |-->
 
-            <div id="portada-div_contenedor_botones">
+            <div class="portada_div_contenedor_botones">
 
 
                 <div>
@@ -108,11 +113,11 @@
                     <div>
                         <!--| imagen trailer svg |-->
                     </div>
-
                     <!--| ----------------------------------- |-->
-
                     <div>
-                        <p class="texto_blanco">TRAILER</p>
+                        <p class="texto_blanco">
+                            TRAILER
+                        </p>
                     </div>
 
 
@@ -126,11 +131,11 @@
                     <div>
                         <!--| imagen sample svg |-->
                     </div>
-
                     <!--| ----------------------------------- |-->
-
                     <div>
-                        <p class="texto_blanco">SAMPLE</p>
+                        <p class="texto_blanco">
+                            SAMPLE
+                        </p>
                     </div>
     
 
@@ -148,7 +153,9 @@
                     <!--| ----------------------------------- |-->
 
                     <div>
-                        <p class="texto_blanco">SHARE</p>
+                        <p class="texto_blanco">
+                            SHARE
+                        </p>
                     </div> 
         
 
@@ -159,20 +166,16 @@
 
             <!--| ----------------------------------- |-->
 
-            <div class="contenedor">
+            <div class="portada_contenedor_boton">
 
 
-                <div>
-                    <button class="boton_rojo">
-                        <p class="texto_blanco">SIGN UP</p>
-                    </button>
-                </div>
-
+                <button class="boton_rojo">
+                    <p class="texto_blanco">
+                        SIGN UP
+                    </p>
+                </button>
                 <!--| ----------------------------------- |-->
-
-                <div>
-                    <p class="texto_gris_claro">Starting at $17.85/month (billed annually)</p>
-                </div>
+                <p class="texto_gris_claro">Starting at $17.85/month (billed annually)</p>
 
 
             </div>
@@ -193,33 +196,32 @@
         <nav>
 
     
-            <div id="nav-main-contenedor_nav">
+            <div class="main_nav_contenedor">
 
 
-                    <div>
-                        <p>
-                            Class Info
-                        </p>
+                <div>
 
-                    </div>
+                    <p>
+                        Class Info
+                    </p>
+                    
+                </div>          
+                <!--| ----------------------- |-->
+                <div>
 
-                    <!--| ----------------------- |-->
-                    <div>
+                    <p>
+                        Related
+                    </p>
 
-                        <p>
-                            Related
-                        </p>
+                </div>
+                <!--| ----------------------- |-->
+                <div>
 
-                    </div>
+                    <p>
+                        FAQ
+                    </p>
 
-                    <!--| ----------------------- |-->
-                    <div>
-
-                        <p>
-                            FAQ
-                        </p>
-
-                    </div>
+                </div>
 
 
             </div>
@@ -234,7 +236,7 @@
         <section class="section">
 
 
-            <div id="Clases-div_contenedor_clases">
+            <div id="clases_div_contenedor">
 
 
                 <div>
@@ -296,25 +298,17 @@
 
 
                             <div class="contenedor_redondeado_gris">
-
-
                                 <p class="texto_blanco">
                                     <span>Play</span>Class Trailer
                                 </p>
-
-
                             </div>
 
                             <!--| ----------------------- |-->
 
                             <div class="contenedor_redondeado_gris">
-
-
                                 <p class="texto_blanco">
                                     <span>Play</span>Class Sample
                                 </p>
-
-
                             </div>
 
 
@@ -331,7 +325,7 @@
                             <!--| ----------------------- |-->
                             <div class="contenedor_redondeado_gris">
 
-
+                            <!-- |Cubrir los p con divs| -->
                                 <p class="texto_blanco">
                                     <span>1.</span>
                                     Meet Your Instructor:St. Vincent a.k.a. Annie ...
@@ -412,7 +406,7 @@
 
                                         <p class="texto_gris">Up Next</p>
                                         <!--| ----------------------- |-->
-                                        <p class="texto_blanco">Alicia Keys</p>
+                                        <p class="texto_blanco"><span>Alicia Keys</span></p>
                                         <!--| ----------------------- |-->
                                         <p class="texto_gris_claro">Teaches Songwriting and Producing</p>
 
@@ -473,7 +467,7 @@
                 <div>
 
 
-                    <span><--</span>
+                    <span> < </span>
 
                     <!--| ----------------------------------- |-->
 
@@ -482,9 +476,13 @@
 
                         <img src="" alt="">
                         <!--| ----------------------- |-->
-                        <p class="texto_blanco"></p>
+                        <p class="texto_blanco">
+                            Alicia Keys
+                        </p>
                         <!--| ----------------------- |-->
-                        <p class="texto_gris"></p>
+                        <p class="texto_gris">
+                            Teaches Songwriting and Producing
+                        </p>
                     
 
                     </div>
@@ -494,9 +492,13 @@
 
                         <img src="" alt="">
                         <!--| ----------------------- |-->
-                        <p class="texto_blanco"></p>
+                        <p class="texto_blanco">
+                            Matthew Walker
+                        </p>
                         <!--| ----------------------- |-->
-                        <p class="texto_gris"></p>
+                        <p class="texto_gris">
+                            Teaches the Science of Better Sleep
+                        </p>
                     
 
                     </div>
@@ -506,16 +508,68 @@
 
                         <img src="" alt="">
                         <!--| ----------------------- |-->
-                        <p class="texto_blanco"></p>
+                        <p class="texto_blanco">
+                            Christina Aguilera
+                        </p>
                         <!--| ----------------------- |-->
-                        <p class="texto_gris"></p>
+                        <p class="texto_gris">
+                            Teaaches Singing
+                        </p>
+                    
+
+                    </div>
+                    <!--| ----------------------- |-->
+                    <div class="otras_clases">
+
+
+                        <img src="" alt="">
+                        <!--| ----------------------- |-->
+                        <p class="texto_blanco">
+                            Chris Voss
+                        </p>
+                        <!--| ----------------------- |-->
+                        <p class="texto_gris">
+                            Teaches The Art of Negotiation
+                        </p>
+                    
+
+                    </div>
+                    <!--| ----------------------- |-->
+                    <div class="otras_clases">
+
+
+                        <img src="" alt="">
+                        <!--| ----------------------- |-->
+                        <p class="texto_blanco">
+                            Tom Morello
+                        </p>
+                        <!--| ----------------------- |-->
+                        <p class="texto_gris">
+                            Teaches Electric Guitar
+                        </p>
+                    
+
+                    </div>
+                    <!--| ----------------------- |-->
+                    <div class="otras_clases">
+
+
+                        <img src="" alt="">
+                        <!--| ----------------------- |-->
+                        <p class="texto_blanco">
+                            Emily Morse
+                        </p>
+                        <!--| ----------------------- |-->
+                        <p class="texto_gris">
+                            Teaches Sex and Communication
+                        </p>
                     
 
                     </div>
 
                     <!--| ----------------------------------- |-->
 
-                    <span>--></span>
+                    <span> > </span>
 
 
                 </div>
@@ -531,7 +585,7 @@
         <section class="section">
 
 
-            <div class="registro-div_contenedor">
+            <div class="registro_div_contenedor">
 
 
                 <div>
@@ -557,6 +611,17 @@
                         type="text" 
                         class="entrada_de_texto" 
                         placeholder="Enter Email Address">
+
+                    <!--| ----------------------- |-->
+                    <button class="boton_negro">
+
+
+                        <p class="texto_gris">
+                            SUBMIT
+                        </p>
+
+
+                    </button>
                     <!--| ----------------------- |-->
                     <div>
 
@@ -569,16 +634,6 @@
 
 
                     </div>
-                    <!--| ----------------------- |-->
-                    <button class="boton_negro">
-
-
-                        <p class="texto_gris">
-                            SUBMIT
-                        </p>
-
-
-                    </button>
 
 
                 </div>
@@ -594,22 +649,18 @@
         <section class="section">
 
 
-            <div id="suscripcion-div_contenedor">
+            <div id="suscripcion_div_contenedor">
 
 
                 <div>
 
 
-                    <div>
+                    <p class="texto_blanco">
+                        What's in every MasterClass subscription?
+                    </p>
 
-
-                        <p class="texto_blanco">
-                            What's in every MasterClass subscription?
-                        </p>
-
-
-                    </div>
                     <!--| ----------------------- |-->
+
                     <div>
 
 
@@ -638,11 +689,13 @@
 
 
                 </div>
+
                 <!--| ----------------------- |-->
+
                 <div>
 
 
-                    <ul class="suscripcion-ul_multimedia">
+                    <ul class="suscripcion_ul_multimedia">
 
 
                         <li>
@@ -706,14 +759,14 @@
         <section class="preguntas-frecuentes">
 
 
-            <div class="preguntas-frecuencias-div">
+            <div class="preguntas-frecuencias_contenedor">
 
 
                 <p class="titulo_blanco">
                 Frequently asked questions
                 </p>
                 <!--| ----------------------------------- |-->
-                <div class="preguntas-frecuentes_contenedor_preguntas_frecuentas">
+                <div class="preguntas-frecuentes_contenedor_secundario">
 
 
                     <p class="texto_gris_claro">
@@ -723,6 +776,7 @@
                     <!--| ----------------------- |-->
 
                     <div>
+
 
                         <div class="contenedor_redondeado_gris">
 
@@ -781,64 +835,7 @@
                         Princing & Payment
                     </p>
 
-                    <div>
-
-                        <div class="contenedor_redondeado_gris">
-
-
-                            <p class="texto_blanco">
-                                What is MasterClass
-                            </p>
-                            <!--| ----------------------- |-->
-                            <span>V</span>
-
-
-                        </div>
-                        <!--| ----------------------------------- |-->
-                        <div class="contenedor_redondeado_gris">
-
-
-                            <p class="texto_blanco">
-                                What is included in a MasterClass membership?
-                            </p>
-                            <!--| ----------------------- |-->
-                            <span>V</span>
-
-
-                        </div>
-                        <!--| ----------------------------------- |-->
-                        <div class="contenedor_redondeado_gris">
-
-
-                            <p class="texto_blanco">
-                                Where can I watch?
-                            </p>
-                            <!--| ----------------------- |-->
-                            <span>V</span>
-
-
-                        </div>
-                        <!--| ----------------------------------- |-->
-                        <div class="contenedor_redondeado_gris">
-
-
-                            <p class="texto_blanco">
-                                Which classes are right for me?
-                            </p>
-                            <!--| ----------------------- |-->
-                            <span>V</span>
-
-
-                        </div>
-
-
-                    </div>
-
-                    <!--| ----------------------------------- |-->
-
-                    <p class="texto_gris_claro">
-                        Sections
-                    </p>
+                    <!--| ----------------------- |-->
 
                     <div>
 
@@ -909,12 +906,12 @@
         <section class="relacionados">
 
 
-            <div class="relacionados-div">
+            <div class="relacionados_contenedor">
 
 
-                <p class="texto_blanco">
+                <h2 class="texto_blanco">
                     Browse related articles
-                </p>
+                </h2>
 
                 <!--| ----------------------------------- |-->
 
@@ -977,7 +974,7 @@
         <section class="unirse">
 
 
-            <div class="unirse-div">
+            <div class="unirs_contenedor">
 
 
                 <div>
@@ -1006,7 +1003,7 @@
                             <a href="">Learn more</a>
                             <!--| ----------------------- |-->
                             <span>
-                                -->
+                                ->
                             </span>
 
 
@@ -1037,7 +1034,7 @@
         <footer>
 
 
-            <div id="footer-div">
+            <div id="footer_contenedor">
     
     
                     <div class="footer_textos">
@@ -1122,22 +1119,27 @@
     
                         <!--| ----------------------- |-->
                         <p class="texto_blanco">
+                            <span>Logo</span>
                             Twitter
                         </p>
                         <!--| ----------------------- |-->
                         <p class="texto_blanco">
+                            <span>Logo</span>
                             Instagram
                         </p>
                         <!--| ----------------------- |-->
                         <p class="texto_blanco">
+                            <span>Logo</span>
                             Facebook
                         </p>
                         <!--| ----------------------- |-->
                         <p class="texto_blanco">
+                            <span>Logo</span>
                             YouTube
                         </p>
                         <!--| ----------------------- |-->
                         <p class="texto_blanco">
+                            <span>Logo</span>
                             Linkedln
                         </p>
                         
@@ -1155,19 +1157,19 @@
     
                         <!--| ----------------------- |-->
                         <p>
-                            App Store
+                            Logo App Store
                         </p>
                         <!--| ----------------------- |-->
                         <p>
-                            Google Play
+                            Logo Google Play
                         </p>
                         <!--| ----------------------- |-->
                         <p>
-                            Amazon Appstore
+                            Logo Amazon Appstore
                         </p>
                         <!--| ----------------------- |-->
                         <p>
-                            Roku
+                            Logo Roku
                         </p>
                         
 
@@ -1178,9 +1180,6 @@
 
 
         </footer>
-
-
-
 
 
     </main>
