@@ -1,17 +1,228 @@
+:root{
+    --ancho: 1200px;
+    --texto_blanco: #ffffff;
+    --texto_gris:#6e6e6e;
+    --texto_gris_claro: rgb(200, 200, 200);
+
+    --tamano_texto_normal: 13px;
+}
+
 *{
     font-family: "Sohne", "Helvetica", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 *::selection{
     background-color: rgba(255, 255, 255, 0.507);
 }
 html, body{
     height: 100%;
+    /*font-size: 62.5%;*/
 }
 body{
     background-color: rgb(110, 110, 110);
     color:#ffffff
 }
 
-/*-------------------------||-------------------------*/
+
+
+
+/*-------------------------|HEADER NAV|-------------------------*/
+
+.nav_contenedor{
+    width: var(--ancho);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+
+    font-weight: bolder;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    font-size: 1.4rem;
+}
+
+.nav_contenedor div:nth-child(2), .nav_contenedor div:nth-child(3){
+    display:flex;
+    flex-direction: row;
+}
+
+.nav_contenedor div:nth-child(2) > p, .nav_contenedor div:nth-child(3) > p{
+    margin-right: 20px;
+}
+
+/* Quita el ultimo margen a la derecha del ultimo p del nav */
+.nav_contenedor div:nth-child(2) p:last-child, .nav_contenedor div:nth-child(3) p:last-child{
+    margin-right: 0px;
+}
+
+
+
+/*-----------------portada----------------*/
+.contenedor-portada{
+    background: linear-gradient(to top, rgb(0, 0, 0), hsla(0, 0%, 0%, 0.5),
+    hsla(0, 0%, 0%, 0),hsla(0, 0%, 0%, 0)),
+    url("St Vincent/Imagenes/Portada St Vincent.jpg"); 
+
+    /*background-image: url("St Vincent/Imagenes/Portada St Vincent.jpg");*/
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    background-color: rgb(0, 0, 0);    
+
+    display: flex;
+    flex-direction: column;
+    height: 88vh;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.portada_contenedor_titulos {
+    /*background-color: bisque;*/
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.portada_contenedor_titulos > div{
+    display:flex;
+    justify-content: center;
+}
+
+.portada_contenedor_titulos div:first-child img{
+    width: 25%;
+}
+
+.portada_contenedor_titulos h1{
+    width: 276px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/*----------------*/
+
+
+.portada_contenedor_botones{
+    /*background-color: blueviolet;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-bottom: 20px;
+    width: 276px;
+
+    font-weight: bolder;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    font-size: var(--tamano_texto_normal);
+    
+}
+
+.portada_contenedor_botones > div{
+    
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*------------------*/
+
+
+.portada_contenedor_boton p.texto_gris_claro{
+    font-size: 15px;
+    width: 276px;
+    margin-top: 10px;
+}
+
+.portada_contenedor_boton button{
+    width: 100%;
+}
 
 /*-------------------------||-------------------------*/
+
+
+
+
+
+/*-------------------------|MAIN-NAV|-------------------------*/
+.main-nav_contenedor{
+    width: var(--ancho);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color:blueviolet;
+}
+
+.main-nav_contenedor > div{
+    display: flex;
+    height: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nav_contenedor div p{
+    text-align: center;
+}
+
+/*-------hijos-------*/
+.main-nav_contenedor div:nth-child(1){
+    border-color:#ffffff;
+}
+.main-nav_contenedor div:nth-child(2){
+    border-color:#6e6e6e;
+}
+.main-nav_contenedor div:nth-child(3){
+    border-color:#6e6e6e;
+}
+/*-------------------------||-------------------------*/
+
+
+/*-------------------------|CLASES|-------------------------*/
+.clases_contenedor{
+    width: var(--ancho);
+    background-color:burlywood;
+}
+
+
+
+/*-------------------------||-------------------------*/
+
+
+
+
+
+.boton_rojo{
+    background-color: #f24462;
+    border-radius: 13px;
+    height: 51px;
+    border-style:none;
+
+    font-weight: bolder;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    font-size: 13px;
+}
+.texto_blanco{
+    color:var(--texto_blanco);
+}
+.texto_gris{
+    color: var(--texo_gris);
+}
+.texto_gris_claro{
+    color: var(--texto_gris_claro);
+}
