@@ -19,10 +19,11 @@
 html, body{
     height: 100%;
     /*font-size: 62.5%;*/
+    background-color: rgb(0, 0, 0);
 }
 body{
-    background-color: rgb(110, 110, 110);
-    color:#ffffff
+
+    color:#ffffff;
 }
 
 
@@ -60,6 +61,7 @@ body{
 
 
 
+
 /*-----------------portada----------------*/
 .contenedor-portada{
     background: linear-gradient(to top, rgb(0, 0, 0), hsla(0, 0%, 0%, 0.5),
@@ -78,7 +80,6 @@ body{
     justify-content: flex-end;
     align-items: center;
 }
-
 
 .portada_contenedor_titulos {
     /*background-color: bisque;*/
@@ -159,8 +160,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
-    background-color:blueviolet;
 }
 
 .main-nav_contenedor > div{
@@ -192,33 +191,37 @@ body{
 /*-------------------------||-------------------------*/
 
 
+
+
 /*-------------------------|CLASES-VIDEOS|-------------------------*/
 .clases_contenedor{
     width: var(--ancho);
-    background-color:burlywood;
+    background-color:rgb(0, 0, 0);
     margin: auto;
 }
+
 .clases_contenedor > div:nth-child(1){
     margin-bottom: 10px;
-    border-style: solid;
-    background-color: red;
 }
+
 .clases_contenedor > div:nth-child(1) > div{
     display: inline-block;
 }
+
 .clases_contenedor > div:nth-child(1) > div:first-child{
     margin-right: 200px;
 }
+
 .clases_contenedor> div:nth-child(1) div p{
     margin-bottom: 10px;
 }
 
 
 /*-----segundo div - 1div-imagen(video) y texto-----*/
+
+
 .clases_contenedor > div:nth-child(2){
-    background-color:  blue;
-    border-style: solid;
-    border-color: red;
+
     display: flex;
     flex-direction: row;
     flex-wrap:  wrap;
@@ -226,32 +229,35 @@ body{
 }
 
 .clases_contenedor > div:nth-child(2) > div{
-    background-color: green;
     display:  inline-block;
 }
+
 .clases_contenedor > div:nth-child(2) > div:first-child{
-    background-color: darkred;
     width: 790px;
 }
+
 .clases_contenedor > div:nth-child(2) > div:first-child > img:first-child{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .clases_contenedor > div:nth-child(2) > div:first-child > p{
     width: 100%;
-    background-color:aqua;
+    font-size: 15px;
 }
+
 
 /*----- segundo div - 2div - 1div-trailer y clases-----*/
 /*.clases_contenedor > div:nth-child(2) > div:nth-child(2)*/
+
+
 .clases-contenedor_menu_derecha{
-    background-color: red;
     width: 375px;
+}
+
+.clases-contenedor_menu_derecha > div:nth-child(1){
 
 }
-.clases-contenedor_menu_derecha > div:nth-child(1){
-    background-color: khaki;
-}
+
 .clases-contenedor_menu_derecha > div:nth-child(1) > div{
     display: flex;
     flex-direction: row;
@@ -263,20 +269,22 @@ body{
 .clases-contenedor_menu_derecha > div:nth-child(2){
     margin-top: 30px;
 }
+
 .clases-contenedor_menu_derecha > div:nth-child(2) > p:first-child{
     margin-bottom: 5px;
     font-weight: bold;
 }
 
 .clases-contenedor_menu_derecha > div:nth-child(2) > div:nth-child(2){
-    background-color: purple;
+    background-color: #191c21;
     height: 290px;
     overflow: hidden;
     border-radius:8px;
 }
+
 .clases-contenedor_menu_derecha > div:nth-child(2) > div:nth-child(2) p{
     border-bottom: solid;
-    border-color:  lightgray;
+    border-color:  gray;
     border-width: 1px;
     height: 50px;
     text-align: left;
@@ -287,28 +295,34 @@ body{
 
 
 /*----- siguiente clase -----*/
+
+
 .siguiente-clase{
-    margin-top: 20px;
-    background-color:cornflowerblue;
+    margin-top: 30px;
+
     position: relative;
     display: flex;
 }
+
 .siguiente-clase > div{
 
 }
+
 .siguiente-clase > div img{
     width: 80px;
     height: 80px;
 }
+
 .siguiente-clase > div:nth-child(2){
-    background-color:darkseagreen;
     margin: auto;
     margin-left: 20px;
 }
+
 .siguiente-clase > div:nth-child(2) > div:nth-child(1) > p:nth-child(1),
 .siguiente-clase > div:nth-child(2) > div:nth-child(1) > p:nth-child(2){
     font-weight: bold;
 }
+
 .siguiente-clase > div:last-child{
     background-color:#f24462;
     display: flex;
@@ -323,7 +337,259 @@ body{
 
 
 
+/*-------------------------|Otras clases|-------------------------*/
+.otras-clases_contenedor{
+    width: var(--ancho);
 
+    margin: auto;
+    border-top:solid;
+    border-color: gray;
+    border-width: 1px;
+
+}
+
+.otras-clases_contenedor > div:first-child h2{
+    /*font-size:32px;*/
+    text-align: center;
+}
+
+.otras-clases_contenedor > div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+}
+
+.otras-clases_contenedor > div:first-child{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+/*----- otras clases -----*/
+
+
+.otras_clases{
+    width: 206px;
+    height: 377px;
+    margin-right: 10px;
+}
+
+.otras_clases img{
+    width:  194px;
+    height: 290px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/*----- contenedor imagenes -----*/
+
+
+.otras_clases p:nth-child(2){
+    margin-top: 13px;
+    font-weight: bold;
+}
+.otras_clases p:nth-child(3){
+    margin-top: 5px;
+}
+/*-------------------------||-------------------------*/
+
+
+
+
+/*-------------------------|Registro correo|-------------------------*/
+.registro-email_contenedor{
+    width: var(--ancho);
+    /*background-color: #2c3166;*/
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.registro-email_contenedor > div:first-child, .registro-email_contenedor > div:nth-child(2){
+    width: 50%;
+}
+
+
+/*----- Registro email -----*/
+
+
+.registro-email_contenedor > div:first-child h3{
+    font-size: 24px;
+}
+
+.registro-email_contenedor > div:first-child p{
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.registro-email_contenedor > div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.registro-email_contenedor > div:nth-child(2) > button:nth-child(2){
+    width: 35%;
+    background-color: black;
+}
+
+.registro-email_contenedor > div:nth-child(2) > div:last-child{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+
+.registro-email_contenedor > div:nth-child(2) > div:last-child > p{
+    margin-left:  10px;
+    font-size: 13px;
+}
+
+/*-------------------------||-------------------------*/
+
+
+
+
+/*-------------------------| Suscripcion |-------------------------*/
+.suscripcion_contenedor{
+    width: var(--ancho);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.suscripcion_contenedor > div{
+    width: 50%;
+}
+
+.suscripcion_contenedor_botones{
+    margin-top: 26px;
+}
+
+.suscripcion_contenedor_botones > button{
+    width: 160px;
+    height: 48px;
+}
+
+.suscripcion_contenedor_botones > button:last-child{
+    margin-left: 16px;
+}
+
+
+/*----------*/
+
+
+.suscripcion_ul_multimedia > li{
+    list-style: none;
+    margin: 12px;
+}
+
+.suscripcion_ul_multimedia > li span{
+    margin-right: 10px;
+}
+
+
+
+/*-------------------------||-------------------------*/
+
+
+
+
+/*-------------------------|Pregutas frecuentes|-------------------------*/
+.preguntas-frecuentes_contenedor{
+    width: var(--ancho);
+    margin: auto;
+
+    display: block;
+}
+
+.preguntas-frecuentes_contenedor > h2{
+    text-align: center;
+}
+
+
+/*----------*/
+
+
+.preguntas-frecuentes_contenedor_secundario{
+    width: 800px;
+    margin: auto;
+}
+
+.preguntas-frecuentes_contenedor_secundario > p{
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.preguntas-frecuentes_contenedor_secundario >  div > div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    height: 64px;
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-right: 24px;
+}
+.preguntas-frecuentes_contenedor_secundario > div{
+    margin-bottom: 40px;
+}
+
+.preguntas-frecuentes_contenedor_secundario > div > div p{
+    font-weight: bold;
+}
+
+/*-------------------------||-------------------------*/
+
+
+
+
+/*-------------------------|Relacionados|-------------------------*/
+.relacionados_contenedor{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.relacionados_contenedor_enlaces{
+    display: flex;
+    flex-direction: row;
+}
+
+.relacionados_contenedor_enlaces div{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.relacionados_contenedor_enlaces > div a{
+    margin-bottom: 24px;
+    text-decoration: none;
+    color: white;
+}
+.relacionados_contenedor_enlaces > div a:hover{
+    text-decoration: underline;
+}
+
+/*-------------------------||-------------------------*/
+
+
+
+
+/*-------------------------|Unirse|-------------------------*/
+
+
+/*-------------------------||-------------------------*/
+
+
+
+
+/*-------------------------||-------------------------*/
 .boton_rojo{
     background-color: #f24462;
     border-radius: 13px;
@@ -335,6 +601,21 @@ body{
     letter-spacing: 0.03em;
     font-size: 13px;
 }
+
+.boton_negro{
+    background-color: #000000;
+    border-radius: 13px;
+    height: 51px;
+    border-style: solid;
+    border-width: 1px;
+
+    font-weight: bolder;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    font-size: 13px;
+}
+
+
 .texto_blanco{
     color:var(--texto_blanco);
 }
@@ -344,8 +625,38 @@ body{
 .texto_gris_claro{
     color: var(--texto_gris_claro);
 }
+
+
 .contenedor_redondeado_gris{
-    background-color: gray;
-    border-radius: 8px;
+    background-color: #191c21;
+    border-radius: 5px;
     height: 50px;
+}
+
+.img_redondeada{
+    border-radius: 5px;
+}
+
+.section{
+    margin-top: 80px;
+}
+
+.entrada_de_texto{
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        width: 60%;
+        height: 51px;
+        border-style: none;
+        background-color: #191c21;
+        font-size: medium;
+        border-style: solid;
+        border-width: 1px;
+        font-weight: 550;
+        padding-left: 20px;  
+}
+
+.subtitulo{
+    color: white;
+    font-size:33px;
+    margin-bottom: 48px;
 }
