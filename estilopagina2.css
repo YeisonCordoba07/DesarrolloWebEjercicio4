@@ -582,7 +582,116 @@ body{
 
 
 /*-------------------------|Unirse|-------------------------*/
+.contenedor-unirse-ultimo{
+    background-color: #303136;
+}
 
+.unirse_contenedor{
+
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 30px;
+padding-bottom: 30px;
+
+}
+
+.unirse_contenedor > div:first-child{
+    width: 30%;
+}
+
+.unirse_contenedor > div:first-child > p:first-child{
+    font-size: 3em;
+    font-family:  "Sohne", "Helvetica", "Arial", sans-serif;
+    letter-spacing: -5px;
+    line-height: 90%;
+    font-weight: 900;
+}
+
+.unirse_contenedor div:first-child p:nth-child(2){
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 600;    
+}
+
+.unirse_contenedor > div:first-child > div{
+    display: flex;
+    flex-direction: row;
+}
+
+.unirse_contenedor div:first-child > div > button:first-child{
+    color: white;
+    width: 50%;
+}
+
+.unirse_contenedor > div:first-child > div > div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.unirse_contenedor > div:first-child > div > div > a{
+    color: white;
+}
+
+
+
+
+.unirse_contenedor > :nth-child(2){
+    width: 60%;
+}
+
+.unirse_contenedor > :nth-child(2) > img{
+    width: 100%;
+}
+/*-------------------------||-------------------------*/
+
+
+/*-------------------------|FOOTER|-------------------------*/
+footer{
+    padding-top: 30px;
+padding-bottom: 30px;
+}
+#footer_contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: var(--ancho);
+    margin: auto;
+}
+#footer_contenedor > div > span{
+font-weight: 600;
+margin-bottom: 2em;
+
+}
+#footer_contenedor > div > p:nth-child(2){
+    margin-top: 2em;
+}
+#footer_contenedor > div > p{
+margin-bottom: 2em;
+margin-left: 0em;
+background-origin: red;
+}
+
+
+
+.firma{
+    color: crimson;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+text-align: center;
+margin-top: 50px;
+margin-bottom: 100px;
+}
 
 /*-------------------------||-------------------------*/
 
