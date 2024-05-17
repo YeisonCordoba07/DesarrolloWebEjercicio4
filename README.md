@@ -7,4 +7,5 @@ A continuación los resultados
 
 
 ## Pagina de una clase
+Para acceder a esta pagina, hay que dar **click** en el boton **"SIGN UP"**
 ![IMG_page_2](https://github.com/YeisonCordoba07/DesarrolloWebEjercicio4/assets/41711172/6707bf0b-27db-4a84-aeb2-e263466de705)
