@@ -173,6 +173,10 @@ body{
     font-weight: 600;
     font-family: "Sohne", "Helvetica", "Arial", sans-serif;
 }
+.boton_iniciar_sesion:hover{
+    background-color: #db0025;
+    cursor: pointer;
+  }
 
 .texto_uno_iniciar_sesion{
     justify-content: left;
