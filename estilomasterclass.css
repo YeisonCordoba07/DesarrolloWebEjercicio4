@@ -174,8 +174,11 @@ body{
     font-family: "Sohne", "Helvetica", "Arial", sans-serif;
 }
 .boton_iniciar_sesion:hover{
-    background-color: #db0025;
+    background-color: white;
+    color: black;
     cursor: pointer;
+    transform: scale(1.2);
+	
   }
 
 .texto_uno_iniciar_sesion{
