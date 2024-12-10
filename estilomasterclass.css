@@ -172,14 +172,13 @@ body{
     border-style: none;
     font-weight: 600;
     font-family: "Sohne", "Helvetica", "Arial", sans-serif;
+    transition: transform 0.2s;
 }
 .boton_iniciar_sesion:hover{
     background-color: white;
     color: black;
     cursor: pointer;
     transform: scale(1.1);
-    transition: transform 0.2s;
-	
   }
 
 .texto_uno_iniciar_sesion{
